@@ -22,7 +22,6 @@ const UserList = () =>{
         console.log(err.message);
     })
 }, [])
-//by default 10 for page 1
 
 
 
@@ -89,12 +88,6 @@ const LoadEdit = (id) => {
                 </tbody>
 
             </table>
-            <Pagination
-        gotoPage={gotoPage}
-        length={data.length}
-        pageSize={pageSize}
-        setPageSize={setPageSize}
-      />
           
         </div>
        
